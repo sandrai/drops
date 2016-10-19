@@ -25,6 +25,9 @@ h1{
 p{
 	font-size:1.2em;
 }
+#sub-h{
+	margin-top:2%;
+}
 #header { 
 	background: rgba(240,240,240,1.00);
 	  text-align:center;
