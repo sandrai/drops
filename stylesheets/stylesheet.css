@@ -1,7 +1,16 @@
 @charset "utf-8";
-/* CSS Document */
 body{
-	background-color:#66D2DB;
+	background: #66D2DB;
+	background: linear-gradient(
+		to top,
+		#47B3D1,
+		#66D2DB 60%
+	  );
+	background: -webkit-linear-gradient(
+		to top,
+		#47B3D1,
+		#66D2DB
+	  );
 }
 h1, h2, p{
 	font-family: 'Open Sans', sans-serif;
@@ -22,14 +31,11 @@ p{
 	  padding-top:10%;
 	  padding-bottom:10%;
 }
-.steps{
-}
 .what{
-	margin-top:5%;
-		/*background: linear-gradient(
-		to top,
-		#47B3D1,
-		#66D2DB
-	  ),url(images/backgWork.jpg);*/
+	margin-top:3%;
+}
+.help{
+	margin-top:1%;
+	margin-bottom:10%;
 }
 
