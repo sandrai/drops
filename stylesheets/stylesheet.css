@@ -1,23 +1,28 @@
 @charset "utf-8";
 body{
-	background: #66D2DB;
+	background: #61C2F2;
 	background: linear-gradient(
 		to top,
-		#47B3D1,
-		#66D2DB 60%
+		#2AA9E8,
+		#61C2F2 60%
 	  );
 	background: -webkit-linear-gradient(
 		to top,
-		#47B3D1,
-		#66D2DB
+		#2AA9E8,
+		#61C2F2
 	  );
 }
-h1, h2, p{
+h1, h2, h3, p{
 	font-family: 'Open Sans', sans-serif;
-	color:#2F3C4E;
+	color: #FAFAFA;
+}
+h3
+{
+	color: #2B4A6B;
 }
 a{
-	color:#EEEEEE;
+	color:#FAFAFA;
+	text-decoration: underline;
 }
 a:hover { 
     color: #2F3C4E;
@@ -32,10 +37,15 @@ p{
 	padding-top:2%;
 }
 #header { 
-	background: #EEEEEE;
+	background: #FAFAFA;
 	  text-align:center;
 	  padding-top:10%;
 	  padding-bottom:10%;
+	  color: #2B4A6B;
+}
+#header h1, #header h2
+{
+	color: #2B4A6B;
 }
 .what{
 	margin-top:3%;
